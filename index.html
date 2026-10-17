@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="origin">
+    <title>Percy Bysshe Shelley Atlas</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@5.19.0/dist/maplibre-gl.css"
+      crossorigin=""
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <h1>Percy Bysshe Shelley Atlas</h1>
+        <p class="lede">A chronological atlas of Percy Bysshe Shelley's places.</p>
+
+        <div class="hero-stats" id="heroStats" aria-label="Atlas statistics"></div>
+      </header>
+
+      <main class="layout">
+        <section class="panel map-panel">
+          <div class="panel-head">
+            <div>
+              <h2>Timeline and Map</h2>
+            </div>
+            <div class="panel-head-actions">
+              <div class="search-container">
+                <label for="placeSearch" class="sr-only">Search places</label>
+                <input type="search" id="placeSearch" placeholder="Search places..." autocomplete="off" spellcheck="false">
+                <button type="button" id="searchClear" class="search-clear" aria-label="Clear search" title="Clear search">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="journey-filmstrip" aria-label="Journey timeline">
+            <label class="sr-only" for="journeyStepInput">Jump to a step in the journey</label>
+            <input type="text" class="sr-only" id="journeyStepInput" list="journeyStepList" value="1" inputmode="numeric" autocomplete="off" spellcheck="false">
+            <span class="sr-only" id="journeyTotal">of 1</span>
+            <button type="button" class="sr-only" id="journeyBack">Back</button>
+            <button type="button" class="sr-only" id="journeyForward">Forward</button>
+            <datalist id="journeyStepList"></datalist>
+            <p class="journey-filmstrip__label" id="journeyFilmstripLabel" aria-live="polite"></p>
+            <div class="journey-filmstrip__rail" id="journeyFilmstrip"></div>
+          </div>
+          <div class="map-shell" id="mapShell">
+            <button type="button" class="map-icon-button" id="fullscreenToggle" aria-label="Enter fullscreen" title="Enter fullscreen" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M4 10V4h6M20 10V4h-6M4 14v6h6M20 14v6h-6" />
+              </svg>
+              <span class="sr-only">Toggle fullscreen</span>
+            </button>
+            <div class="map-passage-badge" id="mapPassageBadge" aria-live="polite"></div>
+            <div id="atlasMap" class="atlas-map" role="img" aria-label="Interactive map of Europe with Percy Bysshe Shelley's biographical and commemorative places"></div>
+            <aside class="detail-card" id="detailCard">
+              <p class="detail-kicker">Selection</p>
+              <h3>Select a place</h3>
+              <p>The card shows dating, type of presence, related works, and the sources used in the dataset.</p>
+            </aside>
+          </div>
+        </section>
+
+        <section class="panel filters-panel panel--collapsible is-collapsed" id="filtersPanel" data-panel-key="filters" aria-label="Atlas filters">
+          <div class="panel-head panel-head--compact">
+            <div>
+              <h2>Filter</h2>
+            </div>
+            <div class="panel-head-actions">
+              <button type="button" class="filter-reset" id="clearFilters">Clear</button>
+              <button type="button" class="panel-toggle" data-panel-toggle aria-expanded="false" aria-controls="filtersPanelBody">
+                <span data-panel-toggle-label>Show</span>
+              </button>
+            </div>
+          </div>
+          <div class="panel-body" id="filtersPanelBody" hidden>
+            <div class="filters-shell">
+              <div class="filter-block filter-block--types">
+                <span class="filter-heading">Types</span>
+                <div class="filter-chips" id="relationFilterGroup" role="group" aria-label="Filter by type"></div>
+              </div>
+              <div class="filter-block filter-block--countries">
+                <span class="filter-heading">Countries</span>
+                <div class="filter-chips" id="countryFilterGroup" role="group" aria-label="Filter by country"></div>
+                <span class="filter-subheading">Italian states</span>
+                <div class="filter-chips" id="historicalStateFilterGroup" role="group" aria-label="Filter by Italian historical state"></div>
+              </div>
+              <div class="filter-block filter-block--range">
+                <span class="filter-heading">Years</span>
+                <div class="year-range">
+                  <label class="filter-range-field">
+                    <span>From</span>
+                    <select id="yearFromFilter">
+                      <option value="">Any</option>
+                    </select>
+                  </label>
+                  <label class="filter-range-field">
+                    <span>To</span>
+                    <select id="yearToFilter">
+                      <option value="">Any</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+              <div class="filter-block filter-block--people">
+                <span class="filter-heading">People</span>
+                <div class="filter-chips" id="peopleFilterGroup" role="group" aria-label="Filter by companion"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel timeline-panel panel--collapsible is-collapsed" id="placesPanel" data-panel-key="places">
+          <div class="panel-head">
+            <div>
+              <h2>Places</h2>
+            </div>
+            <button type="button" class="panel-toggle" data-panel-toggle aria-expanded="false" aria-controls="placesPanelBody">
+              <span data-panel-toggle-label>Show</span>
+            </button>
+          </div>
+          <div class="panel-body" id="placesPanelBody" hidden>
+            <div class="timeline" id="placesList"></div>
+          </div>
+        </section>
+
+        <section class="panel people-panel panel--collapsible is-collapsed" id="peoplePanel" data-panel-key="people">
+          <div class="panel-head">
+            <div>
+              <h2>People</h2>
+              <p class="panel-note">Complete people index from the atlas registry, including companions, households, circles, and figures linked in the dataset.</p>
+            </div>
+            <button type="button" class="panel-toggle" data-panel-toggle aria-expanded="false" aria-controls="peoplePanelBody">
+              <span data-panel-toggle-label>Show</span>
+            </button>
+          </div>
+          <div class="panel-body" id="peoplePanelBody" hidden>
+            <div class="people-grid" id="peopleList"></div>
+          </div>
+        </section>
+
+        <section class="panel sources-panel panel--collapsible is-collapsed" id="sourcesPanel" data-panel-key="sources">
+          <div class="panel-head">
+            <div>
+              <h2>Sources</h2>
+              <p class="panel-note">All unique editions, archives, letters, and place records cited across the atlas dataset.</p>
+            </div>
+            <button type="button" class="panel-toggle" data-panel-toggle aria-expanded="false" aria-controls="sourcesPanelBody">
+              <span data-panel-toggle-label>Show</span>
+            </button>
+          </div>
+          <div class="panel-body" id="sourcesPanelBody" hidden>
+            <div class="sources-grid" id="sourcesList"></div>
+          </div>
+        </section>
+
+        <section class="panel contribute-panel" aria-labelledby="contributeTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="contributeTitle">Contribute</h2>
+            </div>
+          </div>
+          <div class="contribute-copy">
+            <p class="contribute-lede">This atlas grows through documented places. If you know of a residence, travel stage, visit, plaque, or archival source that should be added, send the following information with as much precision as possible.</p>
+            <ul class="contribute-points">
+              <li>Place name and, if possible, the exact address or site.</li>
+              <li>Approximate or exact dates.</li>
+              <li>Companions present at that time.</li>
+              <li>Primary or trustworthy secondary sources, preferably with links.</li>
+              <li>A short explanation of why the place matters.</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script
+      src="https://unpkg.com/maplibre-gl@5.19.0/dist/maplibre-gl.js"
+      crossorigin=""
+    ></script>
+    <script src="site-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

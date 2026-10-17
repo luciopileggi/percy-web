@@ -1,0 +1,8 @@
+*
+!/index.html
+!/app.js
+!/styles.css
+!/site-data.js
+!/favicon.svg
+!/.nojekyll
+!/.gitignore
