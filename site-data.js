@@ -3837,7 +3837,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://www.jstor.org/stable/30212960"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cwm_Elan_in_autumn_-_geograph.org.uk_-_1043096.jpg?width=960",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cwm_Elan_in_autumn_-_geograph.org.uk_-_1043096.jpg",
+        "title": "Cwm Elan in autumn",
+        "provider": "Wikimedia Commons / Geograph",
+        "credit": "Nigel Brown",
+        "license": "CC BY-SA 2.0",
+        "alt": "Autumn colours in the Elan Valley, Wales, photographed in 2008."
+      },
       "latitude": 52.295,
       "longitude": -3.59
     },
@@ -17960,7 +17968,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://elanvalley.org.uk/heritage/reservoir-dams/the-lost-valleys/"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cwm_Elan_in_autumn_-_geograph.org.uk_-_1043096.jpg?width=960",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cwm_Elan_in_autumn_-_geograph.org.uk_-_1043096.jpg",
+        "title": "Cwm Elan in autumn",
+        "provider": "Wikimedia Commons / Geograph",
+        "credit": "Nigel Brown",
+        "license": "CC BY-SA 2.0",
+        "alt": "Autumn colours in the Elan Valley, Wales, photographed in 2008."
+      },
       "latitude": 52.295,
       "longitude": -3.59
     },
