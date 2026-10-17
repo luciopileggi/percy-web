@@ -3537,7 +3537,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://www.gutenberg.org/files/34525/34525-h/34525-h.htm"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/High_Street,_Oxford_(painting),_by_Turner_(1810)_crop.jpg?width=960",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:High_Street,_Oxford_(painting),_by_Turner_(1810)_crop.jpg",
+        "title": "High Street, Oxford (1810)",
+        "provider": "Wikimedia Commons / Ashmolean Museum",
+        "credit": "J. M. W. Turner; photograph by Jpbowen",
+        "license": "CC BY-SA 4.0 (photograph); painting public domain",
+        "alt": "Turner's 1810 painting of Oxford's High Street, looking west past University College and All Souls College."
+      },
       "latitude": 51.7533,
       "longitude": -1.2503
     },
@@ -17490,7 +17498,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://www.oxford.gov.uk/events-oxford/may-morning-oxford"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/High_Street,_Oxford_(painting),_by_Turner_(1810)_crop.jpg?width=960",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:High_Street,_Oxford_(painting),_by_Turner_(1810)_crop.jpg",
+        "title": "High Street, Oxford (1810)",
+        "provider": "Wikimedia Commons / Ashmolean Museum",
+        "credit": "J. M. W. Turner; photograph by Jpbowen",
+        "license": "CC BY-SA 4.0 (photograph); painting public domain",
+        "alt": "Turner's 1810 painting of Oxford's High Street, looking west past University College and All Souls College."
+      },
       "latitude": 51.7533,
       "longitude": -1.2503
     },
