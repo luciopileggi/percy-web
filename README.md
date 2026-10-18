@@ -1,6 +1,6 @@
 # Percy Bysshe Shelley Atlas
 
-A chronological, data-driven web atlas of every place connected to Percy Bysshe Shelley's life and his public memory.
+A chronological, data-driven web atlas of places connected to Percy Bysshe Shelley's life and his public memory.
 
 Open `index.html` in a browser (served over HTTP — see below) to explore an interactive map, a chronological timeline of his journey, a searchable list of places, and detail cards for each presence, residence, travel, and commemorative site.
 
