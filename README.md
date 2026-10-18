@@ -36,5 +36,3 @@ python3 -m http.server 8000
 ```
 
 The map style is a bare OpenStreetMap raster, so **internet access is required** to see map tiles.
-
-<!-- auto-deploy test marker -->
