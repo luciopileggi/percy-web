@@ -9270,7 +9270,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://www.gutenberg.org/cache/epub/37955/pg37955-images.html"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Roman_Baths_in_Bath_Spa,_England_-_July_2006.jpg",
+        "title": "Roman Baths in Bath Spa, England (July 2006 panorama)",
+        "provider": "Wikimedia Commons",
+        "credit": "Diliff (David Iliff); photo taken 2006-07-02",
+        "license": "CC BY-SA 3.0",
+        "alt": "Panorama of the Roman Baths (Thermae) in Bath, England, taken July 2006."
+      },
       "latitude": 51.3813864,
       "longitude": -2.3596963
     },
@@ -26343,7 +26351,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://archive.org/details/shelleymanpoet00clut/mode/1up"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Roman_Baths_in_Bath_Spa%2C_England_-_July_2006.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Roman_Baths_in_Bath_Spa,_England_-_July_2006.jpg",
+        "title": "Roman Baths in Bath Spa, England (July 2006 panorama)",
+        "provider": "Wikimedia Commons",
+        "credit": "Diliff (David Iliff); photo taken 2006-07-02",
+        "license": "CC BY-SA 3.0",
+        "alt": "Panorama of the Roman Baths (Thermae) in Bath, England, taken July 2006."
+      },
       "latitude": 51.3813864,
       "longitude": -2.3596963
     },
