@@ -5479,13 +5479,13 @@ window.SHELLEY_ATLAS_DATA = {
         }
       ],
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Design_for_Southwark_Bridge%2C_from_Ackermann%27s_Repository_of_Arts%2C_1812.jpg?width=960",
-        "pageUrl": "https://commons.wikimedia.org/wiki/File:Design_for_Southwark_Bridge,_from_Ackermann%27s_Repository_of_Arts,_1812.jpg",
-        "title": "London riverfront",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/William_Anderson_-_London_Bridge%2C_with_St._Paul%27s_Cathedral_in_the_distance_-_Google_Art_Project.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Anderson_-_London_Bridge,_with_St._Paul%27s_Cathedral_in_the_distance_-_Google_Art_Project.jpg",
+        "title": "London Bridge, with St. Paul's Cathedral in the distance (Yale Center for British Art)",
         "provider": "Wikimedia Commons",
-        "credit": "Unknown author",
+        "credit": "William Anderson (1757-1837); Yale Center for British Art, Paul Mellon Collection",
         "license": "Public domain",
-        "alt": "Design for Southwark Bridge from Ackermann's Repository of Arts."
+        "alt": "Painting of London Bridge with St. Paul's Cathedral in the distance, by William Anderson, 1815."
       },
       "latitude": 51.5072,
       "longitude": -0.1276
@@ -20412,13 +20412,13 @@ window.SHELLEY_ATLAS_DATA = {
         }
       ],
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Design_for_Southwark_Bridge%2C_from_Ackermann%27s_Repository_of_Arts%2C_1812.jpg?width=960",
-        "pageUrl": "https://commons.wikimedia.org/wiki/File:Design_for_Southwark_Bridge,_from_Ackermann%27s_Repository_of_Arts,_1812.jpg",
-        "title": "London riverfront",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/William_Anderson_-_London_Bridge%2C_with_St._Paul%27s_Cathedral_in_the_distance_-_Google_Art_Project.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Anderson_-_London_Bridge,_with_St._Paul%27s_Cathedral_in_the_distance_-_Google_Art_Project.jpg",
+        "title": "London Bridge, with St. Paul's Cathedral in the distance (Yale Center for British Art)",
         "provider": "Wikimedia Commons",
-        "credit": "Unknown author",
+        "credit": "William Anderson (1757-1837); Yale Center for British Art, Paul Mellon Collection",
         "license": "Public domain",
-        "alt": "Design for Southwark Bridge from Ackermann's Repository of Arts."
+        "alt": "Painting of London Bridge with St. Paul's Cathedral in the distance, by William Anderson, 1815."
       },
       "latitude": 51.5072,
       "longitude": -0.1276
