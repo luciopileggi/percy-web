@@ -7,3 +7,5 @@
 !/.nojekyll
 !/.gitignore
 !/*.md
+.vercel
+.env*
