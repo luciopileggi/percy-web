@@ -9219,7 +9219,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://en.wikisource.org/wiki/Fanny_Godwin_suicide_note"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/View_of_Swansea_%281133102%29.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Swansea_(1133102).jpg",
+        "title": "View of Swansea (National Library of Wales, Wellcome Collection 1133102)",
+        "provider": "Wikimedia Commons",
+        "credit": "Aquatint; photo via National Library of Wales (Wellcome Collection image 1133102)",
+        "license": "Public domain",
+        "alt": "Aquatint of two men looking across Swansea town towards the bay, c.1828."
+      },
       "latitude": 51.6214,
       "longitude": -3.9436
     },
@@ -26266,7 +26274,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://en.wikisource.org/wiki/Fanny_Godwin_suicide_note"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/View_of_Swansea_%281133102%29.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Swansea_(1133102).jpg",
+        "title": "View of Swansea (National Library of Wales, Wellcome Collection 1133102)",
+        "provider": "Wikimedia Commons",
+        "credit": "Aquatint; photo via National Library of Wales (Wellcome Collection image 1133102)",
+        "license": "Public domain",
+        "alt": "Aquatint of two men looking across Swansea town towards the bay, c.1828."
+      },
       "latitude": 51.6214,
       "longitude": -3.9436
     },
