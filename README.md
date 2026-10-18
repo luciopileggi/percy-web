@@ -20,7 +20,13 @@ This repository is a **static, published build** of the atlas — there is no bu
 | `site-data.js` | **Generated** payload (`window.SHELLEY_ATLAS_DATA`) — never edit by hand. |
 | `favicon.svg` | Site icon. |
 
-## Viewing
+## Published
+
+Live atlas: **https://percy-atlas.vercel.app/**
+
+Deployed on Vercel and synced from this repository — every `git push` to `main` produces a new production deployment automatically.
+
+## Viewing locally
 
 The map uses MapLibre GL, which will not load from a `file://` URL. **Serve over HTTP:**
 
