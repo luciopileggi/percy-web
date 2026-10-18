@@ -5107,7 +5107,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://godwindiary-test.warwick.ac.uk/index2.html"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/35-45_Skinner_Street%2C_Clerkenwell%2C_March_2022_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:35-45_Skinner_Street%2C_Clerkenwell%2C_March_2022_02.jpg",
+        "title": "Skinner Street, Clerkenwell, London (35-45, incl. 41)",
+        "provider": "Wikimedia Commons / Geograph",
+        "credit": "No Swan So Fine (geograph.org.uk photo)",
+        "license": "CC BY-SA 4.0",
+        "alt": "Skinner Street, Clerkenwell, London, site of 41 Skinner Street (M. J. Godwin & Co.)."
+      },
       "latitude": 51.5171,
       "longitude": -0.1028
     },
@@ -9309,7 +9317,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://www.gutenberg.org/cache/epub/37955/pg37955-images.html"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gray%27s_Inn_Square%2C_London_WC1-geograph-4139137.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gray%27s_Inn_Square,_London_WC1-geograph-4139137.jpg",
+        "title": "Gray's Inn Square, London WC1 (geograph 4139137)",
+        "provider": "Wikimedia Commons / Geograph",
+        "credit": "Christine Matthews (geograph.org.uk photo 4139137)",
+        "license": "CC BY-SA 2.0",
+        "alt": "Gray's Inn Square, London WC1."
+      },
       "latitude": 51.5197524,
       "longitude": -0.1128495
     },
@@ -9490,7 +9506,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://search.worldcat.org/search?q=ti:%22Shelley%2C%20His%20Life%20and%20Work%22%20au:%22Walter%20Edwin%20Peck%22"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/4_St_James%27s_Place%2C_London%2C_September_2016_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:4_St_James%27s_Place,_London,_September_2016_01.jpg",
+        "title": "4 St James's Place, London (Samuel Rogers's house)",
+        "provider": "Wikimedia Commons",
+        "credit": "Edwardx (photo, September 2016)",
+        "license": "CC BY-SA 4.0",
+        "alt": "4 St James's Place, London, where Samuel Rogers lived."
+      },
       "latitude": 51.5058,
       "longitude": -0.1407
     },
@@ -26174,7 +26198,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://search.worldcat.org/search?q=bn:9780333557709"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/William_Anderson_-_London_Bridge%2C_with_St._Paul%27s_Cathedral_in_the_distance_-_Google_Art_Project.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:William_Anderson_-_London_Bridge,_with_St._Paul%27s_Cathedral_in_the_distance_-_Google_Art_Project.jpg",
+        "title": "London Bridge, with St. Paul's Cathedral in the distance (Yale Center for British Art)",
+        "provider": "Wikimedia Commons",
+        "credit": "William Anderson (1757-1837); Yale Center for British Art, Paul Mellon Collection",
+        "license": "Public domain",
+        "alt": "Painting of London Bridge with St. Paul's Cathedral in the distance, by William Anderson, 1815."
+      },
       "latitude": 51.5074,
       "longitude": -0.1278
     },
@@ -26406,7 +26438,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://www.gutenberg.org/cache/epub/37955/pg37955-images.html"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gray%27s_Inn_Square%2C_London_WC1-geograph-4139137.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gray%27s_Inn_Square,_London_WC1-geograph-4139137.jpg",
+        "title": "Gray's Inn Square, London WC1 (geograph 4139137)",
+        "provider": "Wikimedia Commons / Geograph",
+        "credit": "Christine Matthews (geograph.org.uk photo 4139137)",
+        "license": "CC BY-SA 2.0",
+        "alt": "Gray's Inn Square, London WC1."
+      },
       "latitude": 51.5197524,
       "longitude": -0.1128495
     },
@@ -26453,7 +26493,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://godwindiary-test.warwick.ac.uk/index2.html"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/35-45_Skinner_Street%2C_Clerkenwell%2C_March_2022_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:35-45_Skinner_Street%2C_Clerkenwell%2C_March_2022_02.jpg",
+        "title": "Skinner Street, Clerkenwell, London (35-45, incl. 41)",
+        "provider": "Wikimedia Commons / Geograph",
+        "credit": "No Swan So Fine (geograph.org.uk photo)",
+        "license": "CC BY-SA 4.0",
+        "alt": "Skinner Street, Clerkenwell, London, site of 41 Skinner Street (M. J. Godwin & Co.)."
+      },
       "latitude": 51.5171,
       "longitude": -0.1028
     },
@@ -26714,7 +26762,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://discovery.nationalarchives.gov.uk/details/r/C9434236"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/35-45_Skinner_Street%2C_Clerkenwell%2C_March_2022_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:35-45_Skinner_Street%2C_Clerkenwell%2C_March_2022_02.jpg",
+        "title": "Skinner Street, Clerkenwell, London (35-45, incl. 41)",
+        "provider": "Wikimedia Commons / Geograph",
+        "credit": "No Swan So Fine (geograph.org.uk photo)",
+        "license": "CC BY-SA 4.0",
+        "alt": "Skinner Street, Clerkenwell, London, site of 41 Skinner Street (M. J. Godwin & Co.)."
+      },
       "latitude": 51.5171,
       "longitude": -0.1028
     },
@@ -26762,7 +26818,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://search.worldcat.org/search?q=ti:%22Shelley%2C%20His%20Life%20and%20Work%22%20au:%22Walter%20Edwin%20Peck%22"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/4_St_James%27s_Place%2C_London%2C_September_2016_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:4_St_James%27s_Place,_London,_September_2016_01.jpg",
+        "title": "4 St James's Place, London (Samuel Rogers's house)",
+        "provider": "Wikimedia Commons",
+        "credit": "Edwardx (photo, September 2016)",
+        "license": "CC BY-SA 4.0",
+        "alt": "4 St James's Place, London, where Samuel Rogers lived."
+      },
       "latitude": 51.5058,
       "longitude": -0.1407
     },
@@ -26809,7 +26873,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://search.worldcat.org/search?q=ti:%22On%20Books%20and%20their%20Writers%22%20au:%22Henry%20Crabb%20Robinson%22"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/35-45_Skinner_Street%2C_Clerkenwell%2C_March_2022_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:35-45_Skinner_Street%2C_Clerkenwell%2C_March_2022_02.jpg",
+        "title": "Skinner Street, Clerkenwell, London (35-45, incl. 41)",
+        "provider": "Wikimedia Commons / Geograph",
+        "credit": "No Swan So Fine (geograph.org.uk photo)",
+        "license": "CC BY-SA 4.0",
+        "alt": "Skinner Street, Clerkenwell, London, site of 41 Skinner Street (M. J. Godwin & Co.)."
+      },
       "latitude": 51.5171,
       "longitude": -0.1028
     },
