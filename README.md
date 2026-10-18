@@ -6,7 +6,7 @@ Open `index.html` in a browser (served over HTTP — see below) to explore an in
 
 ## Scope
 
-The atlas covers Shelley's presences, travels, and residences, plus his death and public memory (plaques, monuments, museums). It spans roughly **1810–1822** and includes places across Italy, England, France, Switzerland, Germany, the Netherlands, Ireland, Scotland, and Wales.
+The atlas covers Shelley's presences, travels, and residences, plus his death and public memory (plaques, monuments, museums). It includes places across Italy, England, France, Switzerland, Germany, the Netherlands, Ireland, Scotland, and Wales.
 
 ## What's inside
 
