@@ -9224,7 +9224,7 @@ window.SHELLEY_ATLAS_DATA = {
         "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Swansea_(1133102).jpg",
         "title": "View of Swansea (National Library of Wales, Wellcome Collection 1133102)",
         "provider": "Wikimedia Commons",
-        "credit": "Aquatint; photo via National Library of Wales (Wellcome Collection image 1133102)",
+        "credit": "Aquatint, c.1828; photo via National Library of Wales (Wellcome Collection image 1133102)",
         "license": "Public domain",
         "alt": "Aquatint of two men looking across Swansea town towards the bay, c.1828."
       },
@@ -26287,7 +26287,7 @@ window.SHELLEY_ATLAS_DATA = {
         "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Swansea_(1133102).jpg",
         "title": "View of Swansea (National Library of Wales, Wellcome Collection 1133102)",
         "provider": "Wikimedia Commons",
-        "credit": "Aquatint; photo via National Library of Wales (Wellcome Collection image 1133102)",
+        "credit": "Aquatint, c.1828; photo via National Library of Wales (Wellcome Collection image 1133102)",
         "license": "Public domain",
         "alt": "Aquatint of two men looking across Swansea town towards the bay, c.1828."
       },
