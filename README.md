@@ -27,32 +27,9 @@ python3 -m http.server 8000
 
 The map style is a bare OpenStreetMap raster, so **internet access is required** to see map tiles.
 
-## Data flow
-
-The intellectual content lives in curated YAML datasets, not in this directory. `scripts/build.rb` (in the source repository) joins and enriches those datasets and emits `site-data.js`, which the frontend renders.
-
-```
-data/passages.yaml ─┐
-data/sources.yaml  ─┤
-data/place_coordinates.yaml ─┤
-data/people.yaml   ─┤
-data/media_assets.yaml ─┐    scripts/build.rb       site-data.js ─┐
-data/presence_metadata.yaml ──┘      (Ruby)                    ──┤
-app.js (vanilla JS, single IIFE)  <───────────────────────────────┘
-```
-
-The authoritative source of truth for the atlas is the **source repository** (`percy/`), not this published copy:
-
-- `percy/AGENTS.md` — working guidance for the source repository
-- `percy/REPOSITORY_GUIDE.md` — how to add and edit records
-- `percy/data/schema.md` — field-level record schema and valid enum values
-
-If you are adding or editing records, work in the source repository, rebuild with `ruby percy/scripts/build.rb`, then run `node --check percy/site-data.js` before republishing these static assets.
-
 ## Scope
 
 The atlas covers Shelley's presences, travels, and residences, plus his death and public memory (plaques, monuments, museums). It spans roughly **1810–1822** and includes places across Italy, England, France, Switzerland, Germany, the Netherlands, Ireland, Scotland, and Wales.
 
 ## License
 
-Curated biographical content is documented in the source repository (`percy/`). See there for provenance, sources, and licensing notes.
