@@ -4,6 +4,10 @@ A chronological, data-driven web atlas of places connected to Percy Bysshe Shell
 
 Open `index.html` in a browser (served over HTTP — see below) to explore an interactive map, a chronological timeline of his journey, a searchable list of places, and detail cards for each presence, residence, travel, and commemorative site.
 
+## Scope
+
+The atlas covers Shelley's presences, travels, and residences, plus his death and public memory (plaques, monuments, museums). It spans roughly **1810–1822** and includes places across Italy, England, France, Switzerland, Germany, the Netherlands, Ireland, Scotland, and Wales.
+
 ## What's inside
 
 This repository is a **static, published build** of the atlas — there is no build step here. The files are:
@@ -26,10 +30,3 @@ python3 -m http.server 8000
 ```
 
 The map style is a bare OpenStreetMap raster, so **internet access is required** to see map tiles.
-
-## Scope
-
-The atlas covers Shelley's presences, travels, and residences, plus his death and public memory (plaques, monuments, museums). It spans roughly **1810–1822** and includes places across Italy, England, France, Switzerland, Germany, the Netherlands, Ireland, Scotland, and Wales.
-
-## License
-
