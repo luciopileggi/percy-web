@@ -7506,7 +7506,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://archive.org/details/journalsofmarysh0001shel"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/archive/5/53/20240608200226!Microcosm_of_London_Plate_032_-_Drury_lane_interior_1808.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_032_-_Drury_lane_interior_1808.jpg",
+        "title": "Interior of Theatre Royal, Drury Lane (Microcosm of London, Plate 32, 1808)",
+        "provider": "Wikimedia Commons",
+        "credit": "Engraved by Thomas Rowlandson and Augustus Charles Pugin; published as Plate 32 of Microcosm of London (1808)",
+        "license": "Public domain",
+        "alt": "Interior of Theatre Royal, Drury Lane, circa 1808."
+      },
       "latitude": 51.5129,
       "longitude": -0.1208
     },
@@ -23475,7 +23483,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://archive.org/details/journalsofmarysh0001shel"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/archive/5/53/20240608200226!Microcosm_of_London_Plate_032_-_Drury_lane_interior_1808.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_032_-_Drury_lane_interior_1808.jpg",
+        "title": "Interior of Theatre Royal, Drury Lane (Microcosm of London, Plate 32, 1808)",
+        "provider": "Wikimedia Commons",
+        "credit": "Engraved by Thomas Rowlandson and Augustus Charles Pugin; published as Plate 32 of Microcosm of London (1808)",
+        "license": "Public domain",
+        "alt": "Interior of Theatre Royal, Drury Lane, circa 1808."
+      },
       "latitude": 51.5129,
       "longitude": -0.1208
     },
@@ -23522,7 +23538,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://archive.org/details/journalsofmarysh0001shel"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/archive/5/53/20240608200226!Microcosm_of_London_Plate_032_-_Drury_lane_interior_1808.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_032_-_Drury_lane_interior_1808.jpg",
+        "title": "Interior of Theatre Royal, Drury Lane (Microcosm of London, Plate 32, 1808)",
+        "provider": "Wikimedia Commons",
+        "credit": "Engraved by Thomas Rowlandson and Augustus Charles Pugin; published as Plate 32 of Microcosm of London (1808)",
+        "license": "Public domain",
+        "alt": "Interior of Theatre Royal, Drury Lane, circa 1808."
+      },
       "latitude": 51.5129,
       "longitude": -0.1208
     },
