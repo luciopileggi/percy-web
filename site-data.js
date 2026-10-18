@@ -9174,7 +9174,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://archive.org/details/journalsofmarysh0001shel"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Joseph_Walter_(1783-1856)_(attributed_to)_-_View_of_Bristol_General_Hospital_-_K2975_-_Bristol_City_Museum_%5E_Art_Gallery.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Walter_(1783-1856)_(attributed_to)_-_View_of_Bristol_General_Hospital_-_K2975_-_Bristol_City_Museum_%5E_Art_Gallery.jpg",
+        "title": "View of Bristol General Hospital (Bristol City Museum & Art Gallery, K2975)",
+        "provider": "Wikimedia Commons",
+        "credit": "Attributed to Joseph Walter (1783-1856); photo via Bristol City Museum and Art Gallery",
+        "license": "Public domain",
+        "alt": "View of Bristol General Hospital, from the Bristol City Museum and Art Gallery collection (K2975)."
+      },
       "latitude": 51.4545,
       "longitude": -2.5879
     },
@@ -26197,7 +26205,15 @@ window.SHELLEY_ATLAS_DATA = {
           "url": "https://archive.org/details/journalsofmarysh0001shel"
         }
       ],
-      "image": null,
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Joseph_Walter_(1783-1856)_(attributed_to)_-_View_of_Bristol_General_Hospital_-_K2975_-_Bristol_City_Museum_%5E_Art_Gallery.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Walter_(1783-1856)_(attributed_to)_-_View_of_Bristol_General_Hospital_-_K2975_-_Bristol_City_Museum_%5E_Art_Gallery.jpg",
+        "title": "View of Bristol General Hospital (Bristol City Museum & Art Gallery, K2975)",
+        "provider": "Wikimedia Commons",
+        "credit": "Attributed to Joseph Walter (1783-1856); photo via Bristol City Museum and Art Gallery",
+        "license": "Public domain",
+        "alt": "View of Bristol General Hospital, from the Bristol City Museum and Art Gallery collection (K2975)."
+      },
       "latitude": 51.4545,
       "longitude": -2.5879
     },
